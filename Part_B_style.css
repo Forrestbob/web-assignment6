@@ -1,0 +1,54 @@
+body {
+    background: #FFCF82;
+}
+
+#center {
+    text-align: center;
+}
+
+h1 {
+
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+
+p {
+    font-family: sans-serif;
+    margin-top: 3%;
+    font-weight: bold;
+    clear: both;
+}
+
+#rank {
+    float: left;
+    clear: both;
+}
+
+#top_navbar a {
+    font-size: 100%;
+    margin-left: 10px;
+    margin-top: 20px;
+    padding: 14px;
+    text-decoration: none;  
+    font-family: sans-serif;
+}
+
+#top_navbar a:link, #top_navbar a:visited {
+    color: black;
+    border: 3px solid white;
+    font-size: 10px;
+    padding: 24px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#top_navbar a:hover, #top_navbar a:active {
+    background-color: white;
+    color:black;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+

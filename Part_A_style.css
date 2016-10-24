@@ -1,0 +1,85 @@
+body {
+
+    background: #FFF196;
+
+}
+
+h1 {
+
+    margin-top: 3%;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+p {
+
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+#bold {
+
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+
+#button {
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 160px;
+    font-family: sans-serif;
+
+}
+
+#table {
+    
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid black;
+    padding: 20px;
+
+}
+
+#table th {
+
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+
+#table td {
+
+    font-family: sans-serif;
+
+}
+
+#top_navbar a {
+    font-size: 100%;
+    margin-left: 10px;
+    margin-top: 20px;
+    padding: 14px;
+    text-decoration: none;  
+    font-family: sans-serif;
+}
+
+#top_navbar a:link, #top_navbar a:visited {
+    color: black;
+    border: 3px solid white;
+    font-size: 10px;
+    padding: 24px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#top_navbar a:hover, #top_navbar a:active {
+    background-color: white;
+    color:black;
+    font-size: 100%;
+    font-weight: bold;
+}

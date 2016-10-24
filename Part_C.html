@@ -1,0 +1,83 @@
+<!--      NAME: Lawrence Chen      -->
+<!--      ASSIGNMENT: HW #6        -->
+<!--      DUE:  7/20/2016 @ 2pm    -->
+<!--      PROF: Louis Henry        -->
+<!--      CLASS: CSC 4370          -->
+<!--      3 PARTS:  PART C         -->
+
+<!DOCTYPE html>
+
+    <link rel="stylesheet" type = "text/css" href = "Part_C_style.css">
+    <script type = "text/javascript" src = "Part_C.js"></script>
+
+    <head>
+        <title>PART C: Memory Game of Kings</title>
+    </head>
+
+    <body>
+
+        <div id="top_navbar">
+            <table>
+                <tr>
+                    <td><a href="Part_A.html">Part A: Payroll Report</a></td>
+                    <td><a href="Part_B.html">Part B: Guessing Game</a></td>
+                </tr>
+            </table>
+        </div>
+
+        <br>
+        <h1>Part C: Memory Game</h1>
+
+        <p><span id = "bold">How it works:</span> <br><br>
+           1) The point of the game is to memorize the placements of Dr.King's photos that are<br>
+              in the table. <span id="bold">Click</span> and <span id="bold">match</span> the pairs until you have completed the whole table!
+              <br><br>
+
+           2) <span id="bold">Choice</span> of 8, 10, or 12 pictures in grid.<br><br>
+              <span id="bold">Time until dissapear:</span> 3 seconds, 5 seconds, or 8 seconds<br><br>
+              <span id="bold">Time to complete the game:</span><br><br>
+              8 photos - 120 seconds<br>
+              10 photos - 150 seconds<br>
+              12 photos - 180 seconds
+        </p>
+
+        <hr>
+
+        <div id="all">
+
+            <div id="title">
+
+                <p><span id="bold">Choose your options:</span></p>
+
+                    <button onclick="numOfPictures(12)"> 12 pictures - Easy </button>
+                    <button onclick="numOfPictures(18)"> 18 pictures - Medium </button>
+                    <button onclick="numOfPictures(24)"> 24 pictures - Hard </button><br>
+
+                <p>Whenever you are ready, press on one of the time options below <span id="bold">(Be prepared!)</span><p>
+
+                    <button onclick="newBoard(3)">3 seconds</button>
+                    <button onclick="newBoard(5)">5 seconds</button>
+                    <button onclick="newBoard(8)">8 seconds</button>
+
+                <form name="clock_timer">
+                    <p>Time: </p> 
+                    <input type=text name="timeArea" value="00:00" size="10" style = "font-size:20px; text-align:center"> 
+                    <br>
+                </form>
+
+                <form action="" >
+                    <input type="submit" name="Reset" value="Start Over">
+                </form>
+            
+            </div>
+            
+        </div>
+
+            <div id="memory_board">
+                <!-- Board is created here -->
+            </div>
+        
+
+    </body>
+
+</html>

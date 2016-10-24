@@ -1,0 +1,108 @@
+
+body {
+
+    background: #A8D1FF;
+
+}
+
+h1 {
+
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+p {
+
+    text-align: center;
+    font-size: 110%;
+    font-family: sans-serif;
+
+}
+
+#bold {
+
+    font-weight: bold;
+}
+
+#title p {
+
+    float: left;
+    clear: both;
+
+}
+
+#title button {
+
+    float: left;
+    clear: both;
+
+}
+
+#title form {
+
+    float: left;
+    clear: both;
+
+}
+
+#all {
+
+    margin-left: 45%;
+
+}
+
+#memory_board {
+
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    background:#FFF9A6;
+	border:#999 1px solid;
+	width:800px;
+	height:520px;
+	padding:24px;
+
+}
+
+#memory_board > div {
+
+	background: url(tile.jpg) no-repeat;
+	border:#000 1px solid;
+	width:71px;
+	height:71px;
+	float:left;
+	margin:10px;
+	padding:20px;
+	font-size:64px;
+	cursor:pointer;
+	text-align:center;
+
+}
+
+#top_navbar a {
+    font-size: 100%;
+    margin-left: 10px;
+    margin-top: 20px;
+    padding: 14px;
+    text-decoration: none;  
+    font-family: sans-serif;
+}
+
+#top_navbar a:link, #top_navbar a:visited {
+    color: black;
+    border: 3px solid white;
+    font-size: 10px;
+    padding: 24px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#top_navbar a:hover, #top_navbar a:active {
+    background-color: white;
+    color:black;
+    font-size: 100%;
+    font-weight: bold;
+}
+

@@ -1,0 +1,54 @@
+<!--      NAME: Lawrence Chen      -->
+<!--      ASSIGNMENT: HW #6        -->
+<!--      DUE:  7/20/2016 @ 2pm    -->
+<!--      PROF: Louis Henry        -->
+<!--      CLASS: CSC 4370          -->
+<!--      3 PARTS:  PART B         -->
+
+<!DOCTYPE html>
+
+<html>
+
+    <script src="Part_B.js" ></script>
+    <link rel="stylesheet" type = "text/css" href = "Part_B_style.css">
+
+    <head>
+        <title>PART B: Guessing Game</title>
+    </head>
+
+    <body onload="startGame()">
+
+    <div id="top_navbar">
+            <table>
+                <tr>
+                    <td><a href="Part_A.html">Part A: Payroll Report</a></td>
+                    <td><a href="Part_C.html">Part C: Memory Game</a></td>
+                </tr>
+            </table>
+        </div>
+        
+    <p id="rank"></p>
+
+    <div id="center">
+
+        <br>
+
+        <h1>Part B: Guess the Random Number Game</h1>
+
+        <p>Welcome to the random number guessing game! <br> Guess a number between 1 and 100!<p>
+
+        <input type="text" name="number" id="number"><br><br>
+
+        <input type="button" onclick="cold_or_hot()" value="Guess">
+
+        <p id="tries"></p>
+
+        <br>
+        
+        <p id="spree"></p>
+
+    </div>
+
+</body>
+
+</html>
