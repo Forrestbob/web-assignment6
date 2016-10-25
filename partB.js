@@ -24,14 +24,15 @@ function guessingGame(){
 		}else if(guess > rand){
 			document.getElementById("out").innerHTML = "Your guess is too high";
 		}else if(guess == rand){
-			document.getElementById("out").innerHTML = "WOW! You guessed correctly! The secret number is " + rand + ".";
 			document.getElementById("tries").innerHTML = "<br>";
+			document.getElementById("out").innerHTML = "WOW! You guessed correctly! The secret number is " + rand + ".";
+			document.getElementById("retry").innerHTML = "<input type = 'submit' value = 'Play again?' onclick = 'location.reload();'>";
 			
 		}
 		
 	}else{
 		console.log("RAN OUT OF TRIES");
-		document.getElementById("out").innerHTML = "You ran out of tries! Click the button to play again!";
+		document.getElementById("out").innerHTML = "You ran out of tries! The secret number was " + rand + ". Click the button to play again!";
 		document.getElementById("retry").innerHTML = "<input type = 'submit' value = 'Try again' onclick = 'location.reload();'>";
 	}
 	
