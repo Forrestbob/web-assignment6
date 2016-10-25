@@ -7,9 +7,19 @@
 </head>
 <body>
 
-<p id = "random"></p>
+<a href = "partA.html">Part A</a><br>
+<a href = "partC.html">Part C</a><br>
+
+<h1>Part B: Guessing Game</h1>
+<p>Try to guess the secret number!</p>
+<p>Enter a number between 1 and 100</p>
+<p id = "tries">(You have 6 tries left.)</p>
+
 <input type = "text" id  = "guess">
-<input type = "submit" id = "submit" onclick = "guessingGame();">
+<input type = "submit" id = "submit" value = "Guess" onclick = "guessingGame();">
+
+<p id = "out"></p>
+<p id = "retry"></p>
 
 </body>
 </html>
