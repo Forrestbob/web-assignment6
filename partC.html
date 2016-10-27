@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Part C</title>
+<link rel="stylesheet" type = "text/css" href = "partC.css">
+<script type="text/javascript" src="partC.js"></script>
+</head>
+<body>
+
+	<div id = "links">
+		<a href = "partA.html">Part A</a><br>
+		<a href = "partB.html">Part B</a><br>
+		<u>Part C</u><br>
+	</div>
+	
+	<div id = "body">
+		<h1>Part C: Matching Game</h1>
+		
+		<h3>Choose a difficulty:</h3>
+		<ul id = "numOfPics">
+			<li>
+				<input type="radio" name="picnum" value="8" id = "radio1" checked>
+				<label for='radio1'>4x4 (easy)</label>
+			</li>
+			<li>
+				<input type="radio" name="picnum" value="10" id = "radio2">
+				<label for='radio2'>4x5 (medium)</label>
+			</li>
+			<li>
+				<input type="radio" name="picnum" value="12" id = "radio3">
+				<label for='radio3'>4x6 (hard)</label>
+			</li>
+		</ul>
+		
+		<h3>Choose how many seconds to memorize:</h3>
+		
+		<ul id = "seconds">
+			<li>
+				<input type="radio" name="seconds" value="3" id = "radio4" checked>
+				<label for='radio4'>3 seconds (easy)</label>
+			</li>
+			<li>
+				<input type="radio" name="seconds" value="5" id = "radio5">
+				<label for='radio5'>5 seconds (medium)</label>
+			</li>
+			<li>
+				<input type="radio" name="seconds" value="8" id = "radio6">
+				<label for='radio6'>8 seconds (hard)</label>
+			</li>
+		</ul>
+		
+		<button onclick = "matchingGame();" id = "play">Play</button>
+		
+		<table id = "table">
+			
+			
+		</table>
+
+
+	</div>
+</body>
+</html>
